@@ -9,7 +9,7 @@ int FindChar(char* current, char db[MAXDATA][2][LINESIZE], int length) {
 	int result = 0;
 
 	for (i = 0; i < length; i++) {
-		//カレント文字列と左ブロックが等しければカウントする
+		//currentとデータが等しければカウントする
 		if (strncmp(current, db[i][0], LINESIZE) == 0) ++result;
 	}
 	return result;
