@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "Header.h"
+#include "header.h"
 
 //開始文字が何回含まれるか数える
 int FindChar(char* current, char db[MAXDATA][2][LINESIZE], int length) {
